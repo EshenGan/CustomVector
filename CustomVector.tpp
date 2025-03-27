@@ -115,6 +115,3 @@ bool TCustomVector<T>::operator==(const TCustomVector& rhs)
 {
     return (X == rhs.X) && (Y == rhs.Y) && (Z == rhs.Z);
 }
-
-template struct TCustomVector<float>;
-template struct TCustomVector<double>;
